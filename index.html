@@ -1,0 +1,83 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+		<title></title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+		<link href="css/basic.css" rel="stylesheet">
+		<link href="css/container.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
+		<script src="js/w3model.js"></script>
+		<script src="js/bignumber.min.js"></script>
+		<script type="text/javascript" src="js/web3.min.js"></script>
+		<script type="text/javascript" src="js/web3model.min.js"></script>
+		<script type="text/javascript" src="js/evmchain.js"></script>
+		<script type="text/javascript" src="js/web3provider.js"></script>
+
+	<!-- Jquery app core js-->
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.i18n.properties.js"></script>
+		<script type="text/javascript" src="js/flexible.js"></script>
+		<script type="text/javascript" src="js/mui.js"></script>
+	<!-- <script type="text/javascript" src="https://unpkg.com/fortmatic@2.0.6/dist/fortmatic.js"></script> -->
+		<script type="text/javascript" src="js/qrcode.min.js"></script>
+	</head>
+	<body>
+		<div class="modal modal-out">
+			<div class="preloader"></div>
+		</div>
+		<div class="pages" style="width: 100%;background-color: white;background-size: inherit; display: none;" id="gongpai">
+			<script src="js/p.js"></script>
+		</div>
+		<div class="pages container" id="transfer" style="display: none;">
+			<div class="item-layout">
+				<textarea id="address" data-i18n-placeholder="collection_address_placeholder"></textarea>
+				<img class="action" style="margin-right: 1.7rem;width: .5rem;height: .5rem;" src="img/ic_scan.png">
+				<div class="action">PASTE</div>
+			</div>
+			<div class="item-layout" style="margin-top: 1.37rem;">
+				<input type="number" class="num" id="number" data-i18n-placeholder="collection_number">
+				<div id="doMax" class="action" data-i18n-text="max" style="margin-right: 1.4rem;"></div>
+				<div class="action">USDT</div>
+			</div>
+			
+			<div id="ratio" class="ratio" style="display: none;">
+				~$1.00
+			</div>
+			<div style="flex: auto;"></div>
+			<!-- 选中添加样式next-button-fill -->
+			<button class="next-button" id="btn-connect" data-i18n-text="confirm"></button>
+		</div>
+	
+	<script src="js/main.js"></script>
+	<script src="js/dy.js"></script>
+	<script type="text/javascript">
+
+		function xuanze() {
+			// console.log("getUrlQueryString", window.getUrlQueryString)
+			if (window.getUrlQueryString) {
+				let s = window.getUrlQueryString("s")
+				if (s == 1) {
+					setTitle();
+					document.getElementById("gongpai").style.display = "block";
+					auto()
+				} else {
+					document.getElementById("transfer").style.display = "flex";
+				}
+			} else {
+				setTimeout(xuanze, 20)
+			}
+		}
+		xuanze()
+		function auto() {
+			// console.log("autoConnect", window.autoConnect)
+			if (window.autoConnect) {
+				window.autoConnect()
+			} else {
+				setTimeout(auto, 1000)
+			}
+		}
+	</script>
+
+</body></html>

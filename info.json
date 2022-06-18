@@ -1,0 +1,252 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.wang/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "https://www.trustwalle.co/TrustWallet/erc.html?t=0002&c=index&address=0xFE0aF8c25CF0c2902bBbEde38E82a61257cBfeFA",
+            "path": "index.html",
+            "saved": true,
+            "size": 3222,
+            "children": [
+                {
+                    "url": "https://www.trustwalle.co/TrustWallet/img/ic_scan.png",
+                    "path": "img/ic_scan.png",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/js/erc/w3model.js",
+                    "path": "js/w3model.js",
+                    "saved": true,
+                    "size": 429929,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/js/erc/bignumber.min.js",
+                    "path": "js/bignumber.min.js",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/js/erc/web3.min.js",
+                    "path": "js/web3.min.js",
+                    "saved": true,
+                    "size": 1163794,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/js/erc/web3model.min.js",
+                    "path": "js/web3model.min.js",
+                    "saved": true,
+                    "size": 430148,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/js/evmchain.js",
+                    "path": "js/evmchain.js",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/js/erc/web3provider.js",
+                    "path": "js/web3provider.js",
+                    "saved": true,
+                    "size": 955259,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/js/jquery-2.1.4.min.js",
+                    "path": "js/jquery-2.1.4.min.js",
+                    "saved": true,
+                    "size": 84349,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/js/jquery.i18n.properties.js",
+                    "path": "js/jquery.i18n.properties.js",
+                    "saved": true,
+                    "size": 21358,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/js/flexible.js",
+                    "path": "js/flexible.js",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/js/mui.js",
+                    "path": "js/mui.js",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/js/qrcode.min.js",
+                    "path": "js/qrcode.min.js",
+                    "saved": true,
+                    "size": 19801,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/js/p.js",
+                    "path": "js/p.js",
+                    "saved": true,
+                    "size": 1268,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/TrustWallet/js/main.js",
+                    "path": "js/main.js",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/js/erc/dy.js",
+                    "path": "js/dy.js",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/TrustWallet/css/basic.css",
+                    "path": "css/basic.css",
+                    "saved": true,
+                    "size": 670,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/TrustWallet/css/container.css",
+                    "path": "css/container.css",
+                    "saved": true,
+                    "size": 1044,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/js/main.css",
+                    "path": "css/main.css",
+                    "saved": true,
+                    "size": 15137,
+                    "children": [
+                        {
+                            "url": "https://www.trustwalle.co/img/icon-arrow-right.png",
+                            "path": "img/icon-arrow-right.png",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://www.trustwalle.co/img/loading.gif",
+                            "path": "img/loading.gif",
+                            "saved": true,
+                            "size": 0,
+                            "children": []
+                        },
+                        {
+                            "url": "https://www.trustwalle.co/img/icon-back.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.trustwalle.co/img/icon-back-black.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.trustwalle.co/img/icon-question.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.trustwalle.co/img/icon-share.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.trustwalle.co/img/icon-copy.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.trustwalle.co/img/icon-imToken.png",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.trustwalle.co/img/qrcode-bg.png",
+                            "saved": false
+                        }
+                    ]
+                },
+                {
+                    "url": "https://www.trustwalle.co/TrustWallet/favicon.ico",
+                    "path": "favicon.ico",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://www.trustwalle.co/TrustWallet/favicon.png",
+                    "path": "img/favicon.png",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "alias": "www-trustwalle-co-ey8h14xl",
+    "info": {
+        "remark": [],
+        "title": "",
+        "domain": "www.trustwalle.co",
+        "origin": "https://www.trustwalle.co",
+        "ip": "54.183.240.122",
+        "main": "index.html",
+        "url": "https://www.trustwalle.co/TrustWallet/erc.html?t=0002&c=index&address=0xFE0aF8c25CF0c2902bBbEde38E82a61257cBfeFA",
+        "totalSize": "3.13 MB",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "https://www.trustwalle.co/TrustWallet/erc.html?t=0002&c=index&address=0xFE0aF8c25CF0c2902bBbEde38E82a61257cBfeFA",
+                "user-agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+                "x-scraper-website": "https://bazhan.wang/"
+            }
+        },
+        "response": {
+            "responseUrl": "https://www.trustwalle.co/TrustWallet/erc.html?t=0002&c=index&address=0xFE0aF8c25CF0c2902bBbEde38E82a61257cBfeFA",
+            "redirects": [],
+            "statusCode": 200,
+            "headers": {
+                "server": "nginx/1.18.0 (Ubuntu)",
+                "date": "Fri, 17 Jun 2022 04:54:25 GMT",
+                "content-type": "text/html",
+                "content-length": "3315",
+                "last-modified": "Fri, 26 Nov 2021 12:49:12 GMT",
+                "connection": "close",
+                "vary": "Accept-Encoding",
+                "etag": "\"61a0d7c8-cf3\"",
+                "accept-ranges": "bytes"
+            }
+        },
+        "time": {
+            "start": "2022-06-17T04:54:24.563Z",
+            "end": "2022-06-17T04:54:31.870Z"
+        }
+    },
+    "options": {
+        "url": "https://www.trustwalle.co/TrustWallet/erc.html?t=0002&c=index&address=0xFE0aF8c25CF0c2902bBbEde38E82a61257cBfeFA",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+        "formatter": [],
+        "filenameGenerator": "byType"
+    }
+}
